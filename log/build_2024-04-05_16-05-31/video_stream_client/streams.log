@@ -1,0 +1,19 @@
+[2.837s] Invoking command in '/home/chen/Desktop/dev_ws/build/video_stream_client': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data
+[3.924s] running develop
+[3.926s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.927s]   warnings.warn(
+[4.524s] running egg_info
+[4.527s] writing video_stream_client.egg-info/PKG-INFO
+[4.527s] writing dependency_links to video_stream_client.egg-info/dependency_links.txt
+[4.527s] writing entry points to video_stream_client.egg-info/entry_points.txt
+[4.527s] writing requirements to video_stream_client.egg-info/requires.txt
+[4.528s] writing top-level names to video_stream_client.egg-info/top_level.txt
+[4.533s] reading manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[4.538s] writing manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[4.548s] running build_ext
+[4.551s] Creating /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video-stream-client.egg-link (link to .)
+[4.556s] Installing video_stream_client script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[4.558s] 
+[4.561s] Installed /home/chen/Desktop/dev_ws/build/video_stream_client
+[4.563s] running symlink_data
+[4.664s] Invoked command in '/home/chen/Desktop/dev_ws/build/video_stream_client' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data

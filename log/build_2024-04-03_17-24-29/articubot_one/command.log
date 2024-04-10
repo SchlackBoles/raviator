@@ -1,0 +1,6 @@
+Invoking command in '/home/chen/Desktop/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/Desktop/dev_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/chen/Desktop/dev_ws/install/articubot_one
+Invoked command in '/home/chen/Desktop/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chen/Desktop/dev_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/chen/Desktop/dev_ws/install/articubot_one
+Invoking command in '/home/chen/Desktop/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/Desktop/dev_ws/build/articubot_one -- -j2 -l2
+Invoked command in '/home/chen/Desktop/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chen/Desktop/dev_ws/build/articubot_one -- -j2 -l2
+Invoking command in '/home/chen/Desktop/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/Desktop/dev_ws/build/articubot_one
+Invoked command in '/home/chen/Desktop/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chen/Desktop/dev_ws/build/articubot_one

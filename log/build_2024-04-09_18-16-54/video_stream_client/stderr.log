@@ -1,0 +1,5 @@
+  File "/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client/image_publisher.py", line 21
+    self.publisher_ = self.create_publisher(Image, 'camera/image', qos_profile
+                                           ^
+SyntaxError: '(' was never closed
+

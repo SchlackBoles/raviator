@@ -1,0 +1,24 @@
+[3.754s] Invoking command in '/home/chen/Desktop/dev_ws/build/video_stream_client': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data --force
+[5.010s] running develop
+[5.012s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.013s]   warnings.warn(
+[5.831s] running egg_info
+[5.832s] writing video_stream_client.egg-info/PKG-INFO
+[5.847s] writing dependency_links to video_stream_client.egg-info/dependency_links.txt
+[5.859s] writing entry points to video_stream_client.egg-info/entry_points.txt
+[5.864s] writing requirements to video_stream_client.egg-info/requires.txt
+[5.866s] writing top-level names to video_stream_client.egg-info/top_level.txt
+[5.879s] reading manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[5.880s] writing manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[6.249s] running build_ext
+[6.256s] Creating /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video-stream-client.egg-link (link to .)
+[6.267s] Installing excavator_controller script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[6.281s] Installing image_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[6.294s] Installing video_stream_client script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[6.295s] Installing video_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[6.296s] 
+[6.297s] Installed /home/chen/Desktop/dev_ws/build/video_stream_client
+[6.302s] running symlink_data
+[6.303s] symbolically linking /home/chen/Desktop/dev_ws/build/video_stream_client/resource/video_stream_client -> /home/chen/Desktop/dev_ws/install/video_stream_client/share/ament_index/resource_index/packages
+[6.303s] symbolically linking /home/chen/Desktop/dev_ws/build/video_stream_client/package.xml -> /home/chen/Desktop/dev_ws/install/video_stream_client/share/video_stream_client
+[6.608s] Invoked command in '/home/chen/Desktop/dev_ws/build/video_stream_client' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data --force

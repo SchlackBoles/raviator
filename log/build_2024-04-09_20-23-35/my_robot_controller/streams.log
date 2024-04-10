@@ -1,0 +1,21 @@
+[5.344s] Invoking command in '/home/chen/Desktop/dev_ws/build/my_robot_controller': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[7.505s] running develop
+[7.533s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.533s]   warnings.warn(
+[9.144s] running egg_info
+[9.150s] writing my_robot_controller.egg-info/PKG-INFO
+[9.159s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[9.161s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[9.167s] writing requirements to my_robot_controller.egg-info/requires.txt
+[9.175s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[9.180s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[9.184s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[9.507s] running build_ext
+[9.508s] Creating /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[9.516s] Installing test_node script to /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/my_robot_controller
+[9.529s] 
+[9.529s] Installed /home/chen/Desktop/dev_ws/build/my_robot_controller
+[9.531s] running symlink_data
+[9.539s] symbolically linking /home/chen/Desktop/dev_ws/build/my_robot_controller/resource/my_robot_controller -> /home/chen/Desktop/dev_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[9.541s] symbolically linking /home/chen/Desktop/dev_ws/build/my_robot_controller/package.xml -> /home/chen/Desktop/dev_ws/install/my_robot_controller/share/my_robot_controller
+[9.827s] Invoked command in '/home/chen/Desktop/dev_ws/build/my_robot_controller' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/my_robot_controller/build --no-deps symlink_data --force

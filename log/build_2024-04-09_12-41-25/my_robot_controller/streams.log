@@ -1,0 +1,21 @@
+[3.840s] Invoking command in '/home/chen/Desktop/dev_ws/build/my_robot_controller': PYTHONPATH=/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[4.954s] running develop
+[4.960s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.960s]   warnings.warn(
+[5.655s] running egg_info
+[5.656s] writing my_robot_controller.egg-info/PKG-INFO
+[5.658s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[5.660s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[5.662s] writing requirements to my_robot_controller.egg-info/requires.txt
+[5.673s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[5.681s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[5.687s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[5.840s] running build_ext
+[5.842s] Creating /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[5.858s] Installing test_node script to /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/my_robot_controller
+[5.863s] 
+[5.863s] Installed /home/chen/Desktop/dev_ws/build/my_robot_controller
+[5.872s] running symlink_data
+[5.875s] symbolically linking /home/chen/Desktop/dev_ws/build/my_robot_controller/resource/my_robot_controller -> /home/chen/Desktop/dev_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[5.879s] symbolically linking /home/chen/Desktop/dev_ws/build/my_robot_controller/package.xml -> /home/chen/Desktop/dev_ws/install/my_robot_controller/share/my_robot_controller
+[6.226s] Invoked command in '/home/chen/Desktop/dev_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/my_robot_controller/build --no-deps symlink_data --force

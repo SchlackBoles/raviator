@@ -1,0 +1,20 @@
+[7.668s] Invoking command in '/home/chen/Desktop/dev_ws/build/video_stream_client': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data
+[11.198s] running develop
+[11.250s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[11.251s]   warnings.warn(
+[13.049s] running egg_info
+[13.064s] writing video_stream_client.egg-info/PKG-INFO
+[13.064s] writing dependency_links to video_stream_client.egg-info/dependency_links.txt
+[13.093s] writing entry points to video_stream_client.egg-info/entry_points.txt
+[13.093s] writing requirements to video_stream_client.egg-info/requires.txt
+[13.106s] writing top-level names to video_stream_client.egg-info/top_level.txt
+[13.121s] reading manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[13.189s] writing manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[13.212s] running build_ext
+[13.222s] Creating /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video-stream-client.egg-link (link to .)
+[13.249s] Installing video_stream_client script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[13.250s] Installing video_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[13.261s] 
+[13.261s] Installed /home/chen/Desktop/dev_ws/build/video_stream_client
+[13.273s] running symlink_data
+[13.936s] Invoked command in '/home/chen/Desktop/dev_ws/build/video_stream_client' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data

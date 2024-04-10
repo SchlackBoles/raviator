@@ -1,0 +1,19 @@
+[4.181s] Invoking command in '/home/chen/Desktop/dev_ws/build/my_robot_controller': PYTHONPATH=/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/my_robot_controller/build --no-deps symlink_data
+[5.284s] running develop
+[5.286s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.289s]   warnings.warn(
+[6.455s] running egg_info
+[6.456s] writing my_robot_controller.egg-info/PKG-INFO
+[6.457s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[6.458s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[6.459s] writing requirements to my_robot_controller.egg-info/requires.txt
+[6.470s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[6.471s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[6.471s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[6.479s] running build_ext
+[6.479s] Creating /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[6.482s] Installing test_node script to /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/my_robot_controller
+[6.485s] 
+[6.485s] Installed /home/chen/Desktop/dev_ws/build/my_robot_controller
+[6.486s] running symlink_data
+[6.586s] Invoked command in '/home/chen/Desktop/dev_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/my_robot_controller/build --no-deps symlink_data

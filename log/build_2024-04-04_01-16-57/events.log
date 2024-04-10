@@ -1,0 +1,362 @@
+[0.000000] (-) TimerEvent: {}
+[0.001659] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.001817] (ffmpeg_image_transport) JobQueued: {'identifier': 'ffmpeg_image_transport', 'dependencies': OrderedDict()}
+[0.001899] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001979] (video_stream_package) JobQueued: {'identifier': 'video_stream_package', 'dependencies': OrderedDict()}
+[0.002058] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.035298] (ffmpeg_image_transport) JobStarted: {'identifier': 'ffmpeg_image_transport'}
+[0.061062] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.074347] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.076193] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/Desktop/dev_ws/build/articubot_one', '--', '-j2', '-l2'], 'cwd': '/home/chen/Desktop/dev_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AG:en'), ('USER', 'chen'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chen'), ('OLDPWD', '/home/chen/Desktop/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/devmachine:@/tmp/.ICE-unix/1195,unix/devmachine:/tmp/.ICE-unix/1195'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fdacc9d8_1e5e_4753_8486_83ba3be50081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AG'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BBTTK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/home/chen/Desktop/dev_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/Desktop/dev_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install/articubot_one:/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.099610] (-) TimerEvent: {}
+[0.117314] (ffmpeg_image_transport) JobProgress: {'identifier': 'ffmpeg_image_transport', 'progress': 'cmake'}
+[0.125724] (ffmpeg_image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/chen/Desktop/dev_ws/src/ffmpeg_image_transport', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/chen/Desktop/dev_ws/install/ffmpeg_image_transport'], 'cwd': '/home/chen/Desktop/dev_ws/build/ffmpeg_image_transport', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AG:en'), ('USER', 'chen'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chen'), ('OLDPWD', '/home/chen/Desktop/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/devmachine:@/tmp/.ICE-unix/1195,unix/devmachine:/tmp/.ICE-unix/1195'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fdacc9d8_1e5e_4753_8486_83ba3be50081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AG'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BBTTK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/home/chen/Desktop/dev_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/Desktop/dev_ws/build/ffmpeg_image_transport'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install/articubot_one:/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.200828] (-) TimerEvent: {}
+[0.303878] (-) TimerEvent: {}
+[0.405477] (-) TimerEvent: {}
+[0.510714] (-) TimerEvent: {}
+[0.623725] (-) TimerEvent: {}
+[0.726400] (-) TimerEvent: {}
+[0.750577] (articubot_one) CommandEnded: {'returncode': 0}
+[0.836577] (-) TimerEvent: {}
+[0.951362] (-) TimerEvent: {}
+[1.053320] (-) TimerEvent: {}
+[1.158062] (-) TimerEvent: {}
+[1.266630] (-) TimerEvent: {}
+[1.337838] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[1.367482] (-) TimerEvent: {}
+[1.385315] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/Desktop/dev_ws/build/articubot_one'], 'cwd': '/home/chen/Desktop/dev_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AG:en'), ('USER', 'chen'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chen'), ('OLDPWD', '/home/chen/Desktop/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/devmachine:@/tmp/.ICE-unix/1195,unix/devmachine:/tmp/.ICE-unix/1195'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fdacc9d8_1e5e_4753_8486_83ba3be50081'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AG'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BBTTK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/home/chen/Desktop/dev_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/Desktop/dev_ws/build/articubot_one'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chen/Desktop/dev_ws/install/articubot_one:/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.453918] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.454402] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.454630] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[1.471810] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[1.472319] (-) TimerEvent: {}
+[1.473553] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[1.473961] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[1.474277] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[1.483936] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[1.494370] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[1.497378] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[1.497724] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[1.507469] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[1.518380] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[1.532624] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[1.536461] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[1.538730] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[1.545866] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[1.547874] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[1.553385] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[1.556681] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[1.559653] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[1.562027] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[1.564626] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[1.568025] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[1.570803] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[1.572769] (-) TimerEvent: {}
+[1.577174] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/.vscode/c_cpp_properties.json\n'}
+[1.580808] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/.vscode/settings.json\n'}
+[1.581225] (ffmpeg_image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.583191] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[1.589991] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[1.593196] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[1.595721] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[1.604022] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[1.611774] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[1.616136] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[1.627239] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[1.648585] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[1.651653] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[1.661988] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[1.687652] (-) TimerEvent: {}
+[1.693615] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[1.703992] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[1.710468] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[1.731588] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[1.739897] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[1.743532] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[1.749404] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[1.758416] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[1.763794] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[1.766249] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[1.768138] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[1.775772] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[1.787547] (-) TimerEvent: {}
+[1.891830] (-) TimerEvent: {}
+[1.993322] (-) TimerEvent: {}
+[2.010371] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[2.017679] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[2.019427] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[2.025082] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chen/Desktop/dev_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[2.048151] (articubot_one) CommandEnded: {'returncode': 0}
+[2.093890] (-) TimerEvent: {}
+[2.195377] (-) TimerEvent: {}
+[2.303449] (-) TimerEvent: {}
+[2.409272] (-) TimerEvent: {}
+[2.510431] (-) TimerEvent: {}
+[2.616538] (-) TimerEvent: {}
+[2.648486] (ffmpeg_image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.722721] (-) TimerEvent: {}
+[2.776221] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.825673] (-) TimerEvent: {}
+[2.926634] (-) TimerEvent: {}
+[3.046030] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[3.065276] (-) TimerEvent: {}
+[3.066267] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[3.166312] (-) TimerEvent: {}
+[3.267956] (-) TimerEvent: {}
+[3.373913] (-) TimerEvent: {}
+[3.476075] (-) TimerEvent: {}
+[3.577516] (-) TimerEvent: {}
+[3.678893] (-) TimerEvent: {}
+[3.800095] (-) TimerEvent: {}
+[3.901726] (-) TimerEvent: {}
+[4.002807] (-) TimerEvent: {}
+[4.109850] (-) TimerEvent: {}
+[4.116802] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.180607] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.187039] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.189354] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.210482] (-) TimerEvent: {}
+[4.218738] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.314649] (-) TimerEvent: {}
+[4.439436] (-) TimerEvent: {}
+[4.540814] (-) TimerEvent: {}
+[4.641750] (-) TimerEvent: {}
+[4.742577] (-) TimerEvent: {}
+[4.848199] (-) TimerEvent: {}
+[4.951960] (-) TimerEvent: {}
+[5.053868] (-) TimerEvent: {}
+[5.154691] (-) TimerEvent: {}
+[5.255773] (-) TimerEvent: {}
+[5.367128] (-) TimerEvent: {}
+[5.466761] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.470070] (-) TimerEvent: {}
+[5.532356] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.539551] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.543030] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.570562] (-) TimerEvent: {}
+[5.653807] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.675840] (-) TimerEvent: {}
+[5.778968] (-) TimerEvent: {}
+[5.888350] (-) TimerEvent: {}
+[5.991018] (-) TimerEvent: {}
+[6.093080] (-) TimerEvent: {}
+[6.195021] (-) TimerEvent: {}
+[6.297627] (-) TimerEvent: {}
+[6.399462] (-) TimerEvent: {}
+[6.500728] (-) TimerEvent: {}
+[6.603382] (-) TimerEvent: {}
+[6.704629] (-) TimerEvent: {}
+[6.807488] (-) TimerEvent: {}
+[6.870015] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.907956] (-) TimerEvent: {}
+[7.009286] (-) TimerEvent: {}
+[7.111187] (-) TimerEvent: {}
+[7.212926] (-) TimerEvent: {}
+[7.315954] (-) TimerEvent: {}
+[7.417200] (-) TimerEvent: {}
+[7.474825] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.518162] (-) TimerEvent: {}
+[7.613132] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/chen/Desktop/dev_ws/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/chen/Desktop/dev_ws/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AG:en', 'USER': 'chen', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chen', 'OLDPWD': '/home/chen/Desktop/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2058', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/devmachine:@/tmp/.ICE-unix/1195,unix/devmachine:/tmp/.ICE-unix/1195', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fdacc9d8_1e5e_4753_8486_83ba3be50081', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AG', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BBTTK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/home/chen/Desktop/dev_ws/install/articubot_one:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chen/Desktop/dev_ws/build/my_robot_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/articubot_one'}, 'shell': False}
+[7.633775] (-) TimerEvent: {}
+[7.740408] (-) TimerEvent: {}
+[7.841251] (-) TimerEvent: {}
+[7.945292] (-) TimerEvent: {}
+[7.963469] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.051658] (-) TimerEvent: {}
+[8.153021] (-) TimerEvent: {}
+[8.166494] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[8.253867] (-) TimerEvent: {}
+[8.358031] (-) TimerEvent: {}
+[8.462917] (-) TimerEvent: {}
+[8.567879] (-) TimerEvent: {}
+[8.669596] (-) TimerEvent: {}
+[8.779902] (-) TimerEvent: {}
+[8.881653] (-) TimerEvent: {}
+[8.986613] (-) TimerEvent: {}
+[9.033686] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.087656] (-) TimerEvent: {}
+[9.113183] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.188519] (-) TimerEvent: {}
+[9.222502] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.289049] (-) TimerEvent: {}
+[9.390159] (-) TimerEvent: {}
+[9.402252] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.490876] (-) TimerEvent: {}
+[9.537259] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[9.549884] (my_robot_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.551739] (my_robot_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.571565] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.591537] (-) TimerEvent: {}
+[9.693566] (-) TimerEvent: {}
+[9.795958] (-) TimerEvent: {}
+[9.898590] (-) TimerEvent: {}
+[10.007540] (-) TimerEvent: {}
+[10.109381] (-) TimerEvent: {}
+[10.213966] (-) TimerEvent: {}
+[10.220017] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.260804] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.314598] (-) TimerEvent: {}
+[10.415911] (-) TimerEvent: {}
+[10.516996] (-) TimerEvent: {}
+[10.623544] (-) TimerEvent: {}
+[10.729022] (-) TimerEvent: {}
+[10.735334] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[10.737055] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[10.738124] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[10.738940] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[10.742787] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[10.746307] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[10.750273] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[10.769749] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[10.770474] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[10.771102] (my_robot_controller) StdoutLine: {'line': b'Creating /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[10.775557] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[10.781145] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[10.781498] (my_robot_controller) StdoutLine: {'line': b'Installed /home/chen/Desktop/dev_ws/build/my_robot_controller\n'}
+[10.782063] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[10.837876] (-) TimerEvent: {}
+[10.938737] (my_robot_controller) CommandEnded: {'returncode': 0}
+[10.940460] (-) TimerEvent: {}
+[10.981722] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[10.984720] (video_stream_package) JobStarted: {'identifier': 'video_stream_package'}
+[11.041925] (-) TimerEvent: {}
+[11.152951] (-) TimerEvent: {}
+[11.255875] (-) TimerEvent: {}
+[11.357105] (-) TimerEvent: {}
+[11.458393] (-) TimerEvent: {}
+[11.559801] (-) TimerEvent: {}
+[11.649059] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.661185] (-) TimerEvent: {}
+[11.775598] (-) TimerEvent: {}
+[11.811762] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.880080] (-) TimerEvent: {}
+[11.981571] (-) TimerEvent: {}
+[12.083120] (-) TimerEvent: {}
+[12.143267] (ffmpeg_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.184311] (-) TimerEvent: {}
+[12.215755] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.285021] (-) TimerEvent: {}
+[12.397100] (-) TimerEvent: {}
+[12.498587] (-) TimerEvent: {}
+[12.604821] (-) TimerEvent: {}
+[12.707584] (-) TimerEvent: {}
+[12.809023] (-) TimerEvent: {}
+[12.911876] (-) TimerEvent: {}
+[13.015755] (-) TimerEvent: {}
+[13.104864] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.116576] (-) TimerEvent: {}
+[13.117679] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.217502] (-) TimerEvent: {}
+[13.329131] (-) TimerEvent: {}
+[13.431696] (-) TimerEvent: {}
+[13.532806] (-) TimerEvent: {}
+[13.634101] (-) TimerEvent: {}
+[13.735653] (-) TimerEvent: {}
+[13.837894] (-) TimerEvent: {}
+[13.938963] (-) TimerEvent: {}
+[14.041246] (-) TimerEvent: {}
+[14.120735] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.131263] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.141802] (-) TimerEvent: {}
+[14.257192] (-) TimerEvent: {}
+[14.358305] (-) TimerEvent: {}
+[14.460399] (-) TimerEvent: {}
+[14.561759] (-) TimerEvent: {}
+[14.662984] (-) TimerEvent: {}
+[14.764228] (-) TimerEvent: {}
+[14.865591] (-) TimerEvent: {}
+[14.971415] (-) TimerEvent: {}
+[15.078705] (-) TimerEvent: {}
+[15.179981] (-) TimerEvent: {}
+[15.281182] (-) TimerEvent: {}
+[15.382268] (-) TimerEvent: {}
+[15.483725] (-) TimerEvent: {}
+[15.585765] (-) TimerEvent: {}
+[15.601720] (video_stream_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/chen/Desktop/dev_ws/build/video_stream_package/build', '--no-deps', 'symlink_data'], 'cwd': '/home/chen/Desktop/dev_ws/build/video_stream_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AG:en', 'USER': 'chen', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chen', 'OLDPWD': '/home/chen/Desktop/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2058', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/devmachine:@/tmp/.ICE-unix/1195,unix/devmachine:/tmp/.ICE-unix/1195', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fdacc9d8_1e5e_4753_8486_83ba3be50081', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AG', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BBTTK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/home/chen/Desktop/dev_ws/install/articubot_one:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chen/Desktop/dev_ws/build/video_stream_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chen/Desktop/dev_ws/build/video_stream_package/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/articubot_one'}, 'shell': False}
+[15.686150] (-) TimerEvent: {}
+[15.787628] (-) TimerEvent: {}
+[15.888831] (-) TimerEvent: {}
+[15.989844] (-) TimerEvent: {}
+[16.090980] (-) TimerEvent: {}
+[16.192460] (-) TimerEvent: {}
+[16.293776] (-) TimerEvent: {}
+[16.394647] (-) TimerEvent: {}
+[16.495653] (-) TimerEvent: {}
+[16.505990] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[16.596618] (-) TimerEvent: {}
+[16.611996] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ffmpeg_image_transport_msgs: 1.1.2 (/opt/ros/humble/share/ffmpeg_image_transport_msgs/cmake)\n'}
+[16.697276] (-) TimerEvent: {}
+[16.798177] (-) TimerEvent: {}
+[16.890760] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: imgproc \n'}
+[16.904689] (-) TimerEvent: {}
+[16.922722] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[16.937336] (ffmpeg_image_transport) StdoutLine: {'line': b"-- Checking for modules 'libavcodec;libswresample;libswscale;libavutil'\n"}
+[17.007316] (-) TimerEvent: {}
+[17.111772] (-) TimerEvent: {}
+[17.196517] (ffmpeg_image_transport) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[17.214667] (-) TimerEvent: {}
+[17.311504] (ffmpeg_image_transport) StdoutLine: {'line': b'--   Found libswresample, version 3.9.100\n'}
+[17.315652] (-) TimerEvent: {}
+[17.417215] (-) TimerEvent: {}
+[17.434166] (ffmpeg_image_transport) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[17.459004] (video_stream_package) StdoutLine: {'line': b'running develop\n'}
+[17.470381] (video_stream_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.470853] (video_stream_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.517839] (-) TimerEvent: {}
+[17.574228] (ffmpeg_image_transport) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[17.619732] (-) TimerEvent: {}
+[17.724690] (-) TimerEvent: {}
+[17.826916] (-) TimerEvent: {}
+[17.929014] (-) TimerEvent: {}
+[18.033713] (-) TimerEvent: {}
+[18.040141] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.12.10 (/opt/ros/humble/share/ament_cmake_copyright/cmake)\n'}
+[18.077517] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.10 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[18.114271] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[18.134078] (-) TimerEvent: {}
+[18.160825] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.10 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[18.197123] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.10 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[18.235893] (-) TimerEvent: {}
+[18.300032] (ffmpeg_image_transport) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:146 (find_package):\n'}
+[18.303921] (ffmpeg_image_transport) StderrLine: {'line': b'  By not providing "Findament_cmake_clang_format.cmake" in CMAKE_MODULE_PATH\n'}
+[18.304214] (ffmpeg_image_transport) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[18.304458] (ffmpeg_image_transport) StderrLine: {'line': b'  by "ament_cmake_clang_format", but CMake did not find one.\n'}
+[18.304736] (ffmpeg_image_transport) StderrLine: {'line': b'\n'}
+[18.304968] (ffmpeg_image_transport) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[18.305221] (ffmpeg_image_transport) StderrLine: {'line': b'  "ament_cmake_clang_format" with any of the following names:\n'}
+[18.305443] (ffmpeg_image_transport) StderrLine: {'line': b'\n'}
+[18.305657] (ffmpeg_image_transport) StderrLine: {'line': b'    ament_cmake_clang_formatConfig.cmake\n'}
+[18.305886] (ffmpeg_image_transport) StderrLine: {'line': b'    ament_cmake_clang_format-config.cmake\n'}
+[18.306136] (ffmpeg_image_transport) StderrLine: {'line': b'\n'}
+[18.306372] (ffmpeg_image_transport) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_clang_format" to\n'}
+[18.306606] (ffmpeg_image_transport) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ament_cmake_clang_format_DIR" to a directory\n'}
+[18.306837] (ffmpeg_image_transport) StderrLine: {'line': b'  containing one of the above files.  If "ament_cmake_clang_format" provides\n'}
+[18.307581] (ffmpeg_image_transport) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[18.307873] (ffmpeg_image_transport) StderrLine: {'line': b'\n'}
+[18.308088] (ffmpeg_image_transport) StderrLine: {'line': b'\x1b[0m\n'}
+[18.308329] (ffmpeg_image_transport) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[18.308570] (ffmpeg_image_transport) StdoutLine: {'line': b'See also "/home/chen/Desktop/dev_ws/build/ffmpeg_image_transport/CMakeFiles/CMakeOutput.log".\n'}
+[18.336522] (-) TimerEvent: {}
+[18.435628] (ffmpeg_image_transport) CommandEnded: {'returncode': 1}
+[18.440652] (-) TimerEvent: {}
+[18.555618] (-) TimerEvent: {}
+[18.665081] (-) TimerEvent: {}
+[18.703095] (ffmpeg_image_transport) JobEnded: {'identifier': 'ffmpeg_image_transport', 'rc': 1}
+[18.742785] (video_stream_package) StdoutLine: {'line': b'running egg_info\n'}
+[18.747165] (video_stream_package) StdoutLine: {'line': b'writing video_stream_package.egg-info/PKG-INFO\n'}
+[18.750746] (video_stream_package) StdoutLine: {'line': b'writing dependency_links to video_stream_package.egg-info/dependency_links.txt\n'}
+[18.753035] (video_stream_package) StdoutLine: {'line': b'writing entry points to video_stream_package.egg-info/entry_points.txt\n'}
+[18.757074] (video_stream_package) StdoutLine: {'line': b'writing requirements to video_stream_package.egg-info/requires.txt\n'}
+[18.759085] (video_stream_package) StdoutLine: {'line': b'writing top-level names to video_stream_package.egg-info/top_level.txt\n'}
+[18.774647] (video_stream_package) StdoutLine: {'line': b"reading manifest file 'video_stream_package.egg-info/SOURCES.txt'\n"}
+[18.775538] (-) TimerEvent: {}
+[18.783536] (video_stream_package) StdoutLine: {'line': b"writing manifest file 'video_stream_package.egg-info/SOURCES.txt'\n"}
+[18.788934] (video_stream_package) StdoutLine: {'line': b'running build_ext\n'}
+[18.790398] (video_stream_package) StdoutLine: {'line': b'Creating /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video-stream-package.egg-link (link to .)\n'}
+[18.795853] (video_stream_package) StdoutLine: {'line': b'Installing video_stream_node script to /home/chen/Desktop/dev_ws/install/video_stream_package/lib/video_stream_package\n'}
+[18.799668] (video_stream_package) StdoutLine: {'line': b'\n'}
+[18.800437] (video_stream_package) StdoutLine: {'line': b'Installed /home/chen/Desktop/dev_ws/build/video_stream_package\n'}
+[18.805056] (video_stream_package) StdoutLine: {'line': b'running symlink_data\n'}
+[18.875885] (-) TimerEvent: {}
+[18.916130] (video_stream_package) JobEnded: {'identifier': 'video_stream_package', 'rc': 'SIGINT'}
+[18.934569] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+[2.389s] Invoking command in '/home/chen/Desktop/dev_ws/build/video_stream_package': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_package/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_package/build --no-deps symlink_data
+[3.197s] running develop
+[3.199s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.199s]   warnings.warn(
+[3.701s] running egg_info
+[3.703s] writing video_stream_package.egg-info/PKG-INFO
+[3.714s] writing dependency_links to video_stream_package.egg-info/dependency_links.txt
+[3.717s] writing entry points to video_stream_package.egg-info/entry_points.txt
+[3.719s] writing requirements to video_stream_package.egg-info/requires.txt
+[3.720s] writing top-level names to video_stream_package.egg-info/top_level.txt
+[3.741s] reading manifest file 'video_stream_package.egg-info/SOURCES.txt'
+[3.799s] writing manifest file 'video_stream_package.egg-info/SOURCES.txt'
+[3.805s] running build_ext
+[3.805s] Creating /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video-stream-package.egg-link (link to .)
+[3.811s] Installing video_stream_node script to /home/chen/Desktop/dev_ws/install/video_stream_package/lib/video_stream_package
+[3.828s] 
+[3.829s] Installed /home/chen/Desktop/dev_ws/build/video_stream_package
+[3.838s] running symlink_data
+[3.961s] Invoked command in '/home/chen/Desktop/dev_ws/build/video_stream_package' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_package/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_package/build --no-deps symlink_data

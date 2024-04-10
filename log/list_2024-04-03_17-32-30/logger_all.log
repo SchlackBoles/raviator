@@ -1,0 +1,76 @@
+[4.600s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/chen/Desktop/dev_ws']
+[4.606s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/chen/Desktop/dev_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a2e46724a30>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7a2e466e79d0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7a2e466e79d0>>)
+[11.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.669s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chen/Desktop/dev_ws'
+[11.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extensions ['ignore', 'ignore_ament_install']
+[11.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'ignore'
+[11.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'ignore_ament_install'
+[11.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extensions ['colcon_pkg']
+[11.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'colcon_pkg'
+[11.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extensions ['colcon_meta']
+[11.733s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'colcon_meta'
+[11.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extensions ['ros']
+[11.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'ros'
+[12.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extensions ['cmake', 'python']
+[12.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'cmake'
+[12.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'python'
+[12.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extensions ['python_setup_py']
+[12.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws) by extension 'python_setup_py'
+[12.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[12.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/build) by extension 'ignore'
+[12.266s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/build) ignored
+[12.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[12.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/install) by extension 'ignore'
+[12.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/install) ignored
+[12.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[12.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/log) by extension 'ignore'
+[12.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/log) ignored
+[12.268s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[12.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'ignore'
+[12.344s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'ignore_ament_install'
+[12.353s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extensions ['colcon_pkg']
+[12.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'colcon_pkg'
+[12.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extensions ['colcon_meta']
+[12.358s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'colcon_meta'
+[12.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extensions ['ros']
+[12.359s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'ros'
+[12.360s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extensions ['cmake', 'python']
+[12.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'cmake'
+[12.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'python'
+[12.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extensions ['python_setup_py']
+[12.411s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src) by extension 'python_setup_py'
+[12.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[12.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extension 'ignore'
+[12.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extension 'ignore_ament_install'
+[12.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extensions ['colcon_pkg']
+[12.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extension 'colcon_pkg'
+[12.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extensions ['colcon_meta']
+[12.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extension 'colcon_meta'
+[12.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extensions ['ros']
+[12.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/articubot_one) by extension 'ros'
+[12.566s] DEBUG:colcon.colcon_core.package_identification:Package '/home/chen/Desktop/dev_ws/src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[12.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[12.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extension 'ignore'
+[12.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extension 'ignore_ament_install'
+[12.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extensions ['colcon_pkg']
+[12.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extension 'colcon_pkg'
+[12.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extensions ['colcon_meta']
+[12.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extension 'colcon_meta'
+[12.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extensions ['ros']
+[12.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/my_robot_controller) by extension 'ros'
+[12.683s] DEBUG:colcon.colcon_core.package_identification:Package '/home/chen/Desktop/dev_ws/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[12.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extensions ['ignore', 'ignore_ament_install']
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extension 'ignore'
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extension 'ignore_ament_install'
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extensions ['colcon_pkg']
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extension 'colcon_pkg'
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extensions ['colcon_meta']
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extension 'colcon_meta'
+[12.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extensions ['ros']
+[12.747s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chen/Desktop/dev_ws/src/video_stream_package) by extension 'ros'
+[12.748s] DEBUG:colcon.colcon_core.package_identification:Package '/home/chen/Desktop/dev_ws/src/video_stream_package' with type 'ros.ament_python' and name 'video_stream_package'
+[12.748s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

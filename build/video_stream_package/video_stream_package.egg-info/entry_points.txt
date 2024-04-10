@@ -1,0 +1,3 @@
+[console_scripts]
+video_stream_node = video_stream_package.video_stream_node:main
+

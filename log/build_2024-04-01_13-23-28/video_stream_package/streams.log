@@ -1,0 +1,34 @@
+[1.717s] Invoking command in '/home/chen/Desktop/dev_ws/src/video_stream_package': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_package/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_stream_package build --build-base /home/chen/Desktop/dev_ws/build/video_stream_package/build install --record /home/chen/Desktop/dev_ws/build/video_stream_package/install.log --single-version-externally-managed install_data
+[2.321s] running egg_info
+[2.323s] creating ../../build/video_stream_package/video_stream_package.egg-info
+[2.324s] writing ../../build/video_stream_package/video_stream_package.egg-info/PKG-INFO
+[2.325s] writing dependency_links to ../../build/video_stream_package/video_stream_package.egg-info/dependency_links.txt
+[2.326s] writing entry points to ../../build/video_stream_package/video_stream_package.egg-info/entry_points.txt
+[2.327s] writing requirements to ../../build/video_stream_package/video_stream_package.egg-info/requires.txt
+[2.327s] writing top-level names to ../../build/video_stream_package/video_stream_package.egg-info/top_level.txt
+[2.328s] writing manifest file '../../build/video_stream_package/video_stream_package.egg-info/SOURCES.txt'
+[2.332s] reading manifest file '../../build/video_stream_package/video_stream_package.egg-info/SOURCES.txt'
+[2.335s] writing manifest file '../../build/video_stream_package/video_stream_package.egg-info/SOURCES.txt'
+[2.336s] running build
+[2.337s] running build_py
+[2.348s] creating /home/chen/Desktop/dev_ws/build/video_stream_package/build
+[2.356s] creating /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib
+[2.357s] creating /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib/video_stream_package
+[2.357s] copying video_stream_package/__init__.py -> /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib/video_stream_package
+[2.357s] running install
+[2.358s] running install_lib
+[2.364s] creating /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package
+[2.365s] copying /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib/video_stream_package/__init__.py -> /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package
+[2.369s] byte-compiling /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package/__init__.py to __init__.cpython-310.pyc
+[2.370s] running install_data
+[2.370s] creating /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index
+[2.370s] creating /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index/resource_index
+[2.370s] creating /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index/resource_index/packages
+[2.371s] copying resource/video_stream_package -> /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index/resource_index/packages
+[2.371s] copying package.xml -> /home/chen/Desktop/dev_ws/install/video_stream_package/share/video_stream_package
+[2.371s] running install_egg_info
+[2.372s] Copying ../../build/video_stream_package/video_stream_package.egg-info to /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package-0.0.0-py3.10.egg-info
+[2.381s] running install_scripts
+[2.409s] Installing video_stream_node script to /home/chen/Desktop/dev_ws/install/video_stream_package/lib/video_stream_package
+[2.411s] writing list of installed files to '/home/chen/Desktop/dev_ws/build/video_stream_package/install.log'
+[2.457s] Invoked command in '/home/chen/Desktop/dev_ws/src/video_stream_package' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_package/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_stream_package build --build-base /home/chen/Desktop/dev_ws/build/video_stream_package/build install --record /home/chen/Desktop/dev_ws/build/video_stream_package/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+[4.062s] Invoking command in '/home/chen/Desktop/dev_ws/src/video_stream_client': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_stream_client build --build-base /home/chen/Desktop/dev_ws/build/video_stream_client/build install --record /home/chen/Desktop/dev_ws/build/video_stream_client/install.log --single-version-externally-managed install_data
+[5.344s] running egg_info
+[5.368s] writing ../../build/video_stream_client/video_stream_client.egg-info/PKG-INFO
+[5.368s] writing dependency_links to ../../build/video_stream_client/video_stream_client.egg-info/dependency_links.txt
+[5.368s] writing entry points to ../../build/video_stream_client/video_stream_client.egg-info/entry_points.txt
+[5.368s] writing requirements to ../../build/video_stream_client/video_stream_client.egg-info/requires.txt
+[5.369s] writing top-level names to ../../build/video_stream_client/video_stream_client.egg-info/top_level.txt
+[5.375s] reading manifest file '../../build/video_stream_client/video_stream_client.egg-info/SOURCES.txt'
+[5.381s] writing manifest file '../../build/video_stream_client/video_stream_client.egg-info/SOURCES.txt'
+[5.396s] running build
+[5.396s] running build_py
+[5.398s] copying video_stream_client/image_publisher.py -> /home/chen/Desktop/dev_ws/build/video_stream_client/build/lib/video_stream_client
+[5.409s] running install
+[5.410s] running install_lib
+[5.417s] copying /home/chen/Desktop/dev_ws/build/video_stream_client/build/lib/video_stream_client/image_publisher.py -> /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client
+[5.424s] byte-compiling /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client/image_publisher.py to image_publisher.cpython-310.pyc
+[5.427s]   File "/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client/image_publisher.py", line 21
+[5.428s]     self.publisher_ = self.create_publisher(Image, 'camera/image', qos_profile
+[5.428s]                                            ^
+[5.428s] SyntaxError: '(' was never closed
+[5.428s] 
+[5.429s] running install_data
+[5.433s] running install_egg_info
+[5.446s] removing '/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client-0.0.0-py3.10.egg-info' (and everything under it)
+[5.448s] Copying ../../build/video_stream_client/video_stream_client.egg-info to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client-0.0.0-py3.10.egg-info
+[5.448s] running install_scripts
+[5.526s] Installing excavator_controller script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.529s] Installing image_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.532s] Installing video_stream_client script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.534s] Installing video_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.540s] writing list of installed files to '/home/chen/Desktop/dev_ws/build/video_stream_client/install.log'
+[5.699s] Invoked command in '/home/chen/Desktop/dev_ws/src/video_stream_client' returned '0': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/video_stream_client build --build-base /home/chen/Desktop/dev_ws/build/video_stream_client/build install --record /home/chen/Desktop/dev_ws/build/video_stream_client/install.log --single-version-externally-managed install_data

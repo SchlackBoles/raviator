@@ -1,0 +1,6 @@
+[console_scripts]
+excavator_controller = video_stream_client.excavator_controller:main
+image_to_topic = video_stream_client.image_publisher:main
+video_stream_client = video_stream_client.video_stream_client:main
+video_to_topic = video_stream_client.video_to_topic:main
+

@@ -1,0 +1,22 @@
+[0.094s] Invoking command in '/home/chen/Desktop/dev_ws/build/ffmpeg_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/chen/Desktop/dev_ws/build/ffmpeg_image_transport -- -j2 -l2
+[0.613s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[0.613s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.613s]   has asked CMake to find a package configuration file provided by
+[0.614s]   "ament_cmake", but CMake did not find one.
+[0.614s] 
+[0.617s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.618s]   any of the following names:
+[0.618s] 
+[0.618s]     ament_cmakeConfig.cmake
+[0.618s]     ament_cmake-config.cmake
+[0.619s] 
+[0.619s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.619s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.620s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.620s]   has been installed.
+[0.620s] 
+[0.620s] [0m
+[0.620s] -- Configuring incomplete, errors occurred!
+[0.621s] See also "/home/chen/Desktop/dev_ws/build/ffmpeg_image_transport/CMakeFiles/CMakeOutput.log".
+[0.640s] gmake: *** [Makefile:470: cmake_check_build_system] Error 1
+[0.650s] Invoked command in '/home/chen/Desktop/dev_ws/build/ffmpeg_image_transport' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/chen/Desktop/dev_ws/build/ffmpeg_image_transport -- -j2 -l2

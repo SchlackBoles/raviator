@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/video_stream_package/video_stream_package.egg-info
+writing ../../build/video_stream_package/video_stream_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/video_stream_package/video_stream_package.egg-info/dependency_links.txt
+writing entry points to ../../build/video_stream_package/video_stream_package.egg-info/entry_points.txt
+writing requirements to ../../build/video_stream_package/video_stream_package.egg-info/requires.txt
+writing top-level names to ../../build/video_stream_package/video_stream_package.egg-info/top_level.txt
+writing manifest file '../../build/video_stream_package/video_stream_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/video_stream_package/video_stream_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/video_stream_package/video_stream_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chen/Desktop/dev_ws/build/video_stream_package/build
+creating /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib
+creating /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib/video_stream_package
+copying video_stream_package/__init__.py -> /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib/video_stream_package
+running install
+running install_lib
+creating /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package
+copying /home/chen/Desktop/dev_ws/build/video_stream_package/build/lib/video_stream_package/__init__.py -> /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package
+byte-compiling /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index
+creating /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index/resource_index
+creating /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index/resource_index/packages
+copying resource/video_stream_package -> /home/chen/Desktop/dev_ws/install/video_stream_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/chen/Desktop/dev_ws/install/video_stream_package/share/video_stream_package
+running install_egg_info
+Copying ../../build/video_stream_package/video_stream_package.egg-info to /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video_stream_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing video_stream_node script to /home/chen/Desktop/dev_ws/install/video_stream_package/lib/video_stream_package
+writing list of installed files to '/home/chen/Desktop/dev_ws/build/video_stream_package/install.log'

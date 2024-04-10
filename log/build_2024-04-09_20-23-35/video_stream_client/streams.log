@@ -1,0 +1,24 @@
+[3.718s] Invoking command in '/home/chen/Desktop/dev_ws/build/video_stream_client': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data --force
+[4.880s] running develop
+[4.881s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.881s]   warnings.warn(
+[5.625s] running egg_info
+[5.625s] writing video_stream_client.egg-info/PKG-INFO
+[5.627s] writing dependency_links to video_stream_client.egg-info/dependency_links.txt
+[5.630s] writing entry points to video_stream_client.egg-info/entry_points.txt
+[5.631s] writing requirements to video_stream_client.egg-info/requires.txt
+[5.634s] writing top-level names to video_stream_client.egg-info/top_level.txt
+[5.641s] reading manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[5.647s] writing manifest file 'video_stream_client.egg-info/SOURCES.txt'
+[5.779s] running build_ext
+[5.782s] Creating /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video-stream-client.egg-link (link to .)
+[5.794s] Installing excavator_controller script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.801s] Installing image_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.804s] Installing video_stream_client script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.808s] Installing video_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client
+[5.818s] 
+[5.818s] Installed /home/chen/Desktop/dev_ws/build/video_stream_client
+[5.820s] running symlink_data
+[5.830s] symbolically linking /home/chen/Desktop/dev_ws/build/video_stream_client/resource/video_stream_client -> /home/chen/Desktop/dev_ws/install/video_stream_client/share/ament_index/resource_index/packages
+[5.830s] symbolically linking /home/chen/Desktop/dev_ws/build/video_stream_client/package.xml -> /home/chen/Desktop/dev_ws/install/video_stream_client/share/video_stream_client
+[5.962s] Invoked command in '/home/chen/Desktop/dev_ws/build/video_stream_client' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_client/build --no-deps symlink_data --force

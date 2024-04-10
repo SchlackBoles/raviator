@@ -1,0 +1,18 @@
+[4.620s] Invoking command in '/home/chen/Desktop/dev_ws/build/video_stream_package': PYTHONPATH=/home/chen/Desktop/dev_ws/build/video_stream_package/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/chen/Desktop/dev_ws/build/video_stream_package/build --no-deps symlink_data
+[6.475s] running develop
+[6.486s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.486s]   warnings.warn(
+[7.759s] running egg_info
+[7.763s] writing video_stream_package.egg-info/PKG-INFO
+[7.766s] writing dependency_links to video_stream_package.egg-info/dependency_links.txt
+[7.769s] writing entry points to video_stream_package.egg-info/entry_points.txt
+[7.773s] writing requirements to video_stream_package.egg-info/requires.txt
+[7.775s] writing top-level names to video_stream_package.egg-info/top_level.txt
+[7.790s] reading manifest file 'video_stream_package.egg-info/SOURCES.txt'
+[7.799s] writing manifest file 'video_stream_package.egg-info/SOURCES.txt'
+[7.804s] running build_ext
+[7.806s] Creating /home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages/video-stream-package.egg-link (link to .)
+[7.812s] Installing video_stream_node script to /home/chen/Desktop/dev_ws/install/video_stream_package/lib/video_stream_package
+[7.815s] 
+[7.816s] Installed /home/chen/Desktop/dev_ws/build/video_stream_package
+[7.823s] running symlink_data

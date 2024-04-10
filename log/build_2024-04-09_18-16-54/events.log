@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000942] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001082] (video_stream_client) JobQueued: {'identifier': 'video_stream_client', 'dependencies': OrderedDict()}
+[0.001190] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.041284] (video_stream_client) JobStarted: {'identifier': 'video_stream_client'}
+[0.089898] (-) TimerEvent: {}
+[0.195637] (-) TimerEvent: {}
+[0.296820] (-) TimerEvent: {}
+[0.398087] (-) TimerEvent: {}
+[0.499389] (-) TimerEvent: {}
+[0.600738] (-) TimerEvent: {}
+[0.702379] (-) TimerEvent: {}
+[0.803283] (-) TimerEvent: {}
+[0.904091] (-) TimerEvent: {}
+[1.005929] (-) TimerEvent: {}
+[1.107353] (-) TimerEvent: {}
+[1.210287] (-) TimerEvent: {}
+[1.311260] (-) TimerEvent: {}
+[1.412589] (-) TimerEvent: {}
+[1.513616] (-) TimerEvent: {}
+[1.614621] (-) TimerEvent: {}
+[1.716045] (-) TimerEvent: {}
+[1.818468] (-) TimerEvent: {}
+[1.919562] (-) TimerEvent: {}
+[2.020590] (-) TimerEvent: {}
+[2.121668] (-) TimerEvent: {}
+[2.222962] (-) TimerEvent: {}
+[2.324080] (-) TimerEvent: {}
+[2.425705] (-) TimerEvent: {}
+[2.527099] (-) TimerEvent: {}
+[2.628460] (-) TimerEvent: {}
+[2.730077] (-) TimerEvent: {}
+[2.831821] (-) TimerEvent: {}
+[2.933459] (-) TimerEvent: {}
+[3.034320] (-) TimerEvent: {}
+[3.135460] (-) TimerEvent: {}
+[3.238535] (-) TimerEvent: {}
+[3.341165] (-) TimerEvent: {}
+[3.442193] (-) TimerEvent: {}
+[3.543541] (-) TimerEvent: {}
+[3.645238] (-) TimerEvent: {}
+[3.746021] (-) TimerEvent: {}
+[3.846982] (-) TimerEvent: {}
+[3.948154] (-) TimerEvent: {}
+[4.049849] (-) TimerEvent: {}
+[4.100661] (video_stream_client) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/video_stream_client', 'build', '--build-base', '/home/chen/Desktop/dev_ws/build/video_stream_client/build', 'install', '--record', '/home/chen/Desktop/dev_ws/build/video_stream_client/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chen/Desktop/dev_ws/src/video_stream_client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AG:en', 'USER': 'chen', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chen/Desktop/dev_ws/install/ffmpeg_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chen', 'OLDPWD': '/home/chen/Desktop/dev_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1263', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/chen/Desktop/dev_ws/install/ffmpeg_image_transport/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/devmachine:@/tmp/.ICE-unix/1225,unix/devmachine:/tmp/.ICE-unix/1225', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dcbf7bf3_9285_471e_997a_069d960ae537', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AG', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WLV3L2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/video_stream_client:/home/chen/Desktop/dev_ws/install/my_robot_controller:/home/chen/Desktop/dev_ws/install/articubot_one:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chen/Desktop/dev_ws/build/video_stream_client', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chen/Desktop/dev_ws/build/video_stream_client/prefix_override:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/build/video_stream_package:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/ffmpeg_image_transport:/home/chen/Desktop/dev_ws/install/articubot_one'}, 'shell': False}
+[4.152824] (-) TimerEvent: {}
+[4.192883] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/chen/Desktop/dev_ws/build/my_robot_controller/build', 'install', '--record', '/home/chen/Desktop/dev_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chen/Desktop/dev_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_AG:en', 'USER': 'chen', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chen/Desktop/dev_ws/install/ffmpeg_image_transport/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chen', 'OLDPWD': '/home/chen/Desktop/dev_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1263', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/chen/Desktop/dev_ws/install/ffmpeg_image_transport/bin:/opt/ros/humble/bin:/home/chen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/devmachine:@/tmp/.ICE-unix/1225,unix/devmachine:/tmp/.ICE-unix/1225', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dcbf7bf3_9285_471e_997a_069d960ae537', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_AG', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WLV3L2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/video_stream_package:/home/chen/Desktop/dev_ws/install/video_stream_client:/home/chen/Desktop/dev_ws/install/my_robot_controller:/home/chen/Desktop/dev_ws/install/articubot_one:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chen/Desktop/dev_ws/build/my_robot_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chen/Desktop/dev_ws/build/my_robot_controller/prefix_override:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/build/video_stream_package:/home/chen/Desktop/dev_ws/install/video_stream_package/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages:/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chen/Desktop/dev_ws/install/ffmpeg_image_transport:/home/chen/Desktop/dev_ws/install/articubot_one'}, 'shell': False}
+[4.256943] (-) TimerEvent: {}
+[4.358794] (-) TimerEvent: {}
+[4.460041] (-) TimerEvent: {}
+[4.562353] (-) TimerEvent: {}
+[4.663251] (-) TimerEvent: {}
+[4.764366] (-) TimerEvent: {}
+[4.866941] (-) TimerEvent: {}
+[4.968378] (-) TimerEvent: {}
+[5.069471] (-) TimerEvent: {}
+[5.170543] (-) TimerEvent: {}
+[5.245434] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[5.248275] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[5.251582] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[5.254886] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[5.257614] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[5.260627] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[5.269807] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[5.270537] (-) TimerEvent: {}
+[5.290107] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[5.290750] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[5.291061] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[5.291344] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[5.291616] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[5.291885] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[5.292155] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.293829] (my_robot_controller) StdoutLine: {'line': b"removing '/home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.314718] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[5.344924] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[5.384793] (video_stream_client) StdoutLine: {'line': b'running egg_info\n'}
+[5.385259] (-) TimerEvent: {}
+[5.408724] (video_stream_client) StdoutLine: {'line': b'writing ../../build/video_stream_client/video_stream_client.egg-info/PKG-INFO\n'}
+[5.409154] (video_stream_client) StdoutLine: {'line': b'writing dependency_links to ../../build/video_stream_client/video_stream_client.egg-info/dependency_links.txt\n'}
+[5.409484] (video_stream_client) StdoutLine: {'line': b'writing entry points to ../../build/video_stream_client/video_stream_client.egg-info/entry_points.txt\n'}
+[5.409736] (video_stream_client) StdoutLine: {'line': b'writing requirements to ../../build/video_stream_client/video_stream_client.egg-info/requires.txt\n'}
+[5.409953] (video_stream_client) StdoutLine: {'line': b'writing top-level names to ../../build/video_stream_client/video_stream_client.egg-info/top_level.txt\n'}
+[5.415675] (video_stream_client) StdoutLine: {'line': b"reading manifest file '../../build/video_stream_client/video_stream_client.egg-info/SOURCES.txt'\n"}
+[5.421702] (video_stream_client) StdoutLine: {'line': b"writing manifest file '../../build/video_stream_client/video_stream_client.egg-info/SOURCES.txt'\n"}
+[5.436539] (video_stream_client) StdoutLine: {'line': b'running build\n'}
+[5.437064] (video_stream_client) StdoutLine: {'line': b'running build_py\n'}
+[5.439589] (video_stream_client) StdoutLine: {'line': b'copying video_stream_client/image_publisher.py -> /home/chen/Desktop/dev_ws/build/video_stream_client/build/lib/video_stream_client\n'}
+[5.449841] (video_stream_client) StdoutLine: {'line': b'running install\n'}
+[5.451578] (video_stream_client) StdoutLine: {'line': b'running install_lib\n'}
+[5.458247] (video_stream_client) StdoutLine: {'line': b'copying /home/chen/Desktop/dev_ws/build/video_stream_client/build/lib/video_stream_client/image_publisher.py -> /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client\n'}
+[5.464853] (video_stream_client) StdoutLine: {'line': b'byte-compiling /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client/image_publisher.py to image_publisher.cpython-310.pyc\n'}
+[5.468178] (video_stream_client) StderrLine: {'line': b'  File "/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client/image_publisher.py", line 21\n'}
+[5.468872] (video_stream_client) StderrLine: {'line': b"    self.publisher_ = self.create_publisher(Image, 'camera/image', qos_profile\n"}
+[5.469160] (video_stream_client) StderrLine: {'line': b'                                           ^\n'}
+[5.469441] (video_stream_client) StderrLine: {'line': b"SyntaxError: '(' was never closed\n"}
+[5.469711] (video_stream_client) StderrLine: {'line': b'\n'}
+[5.469977] (video_stream_client) StdoutLine: {'line': b'running install_data\n'}
+[5.473650] (video_stream_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.481030] (video_stream_client) StdoutLine: {'line': b"removing '/home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.487704] (-) TimerEvent: {}
+[5.488116] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/chen/Desktop/dev_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.489376] (video_stream_client) StdoutLine: {'line': b'Copying ../../build/video_stream_client/video_stream_client.egg-info to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/python3.10/site-packages/video_stream_client-0.0.0-py3.10.egg-info\n'}
+[5.489638] (video_stream_client) StdoutLine: {'line': b'running install_scripts\n'}
+[5.491311] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/chen/Desktop/dev_ws/build/my_robot_controller/install.log'\n"}
+[5.541628] (my_robot_controller) CommandEnded: {'returncode': 0}
+[5.567217] (video_stream_client) StdoutLine: {'line': b'Installing excavator_controller script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client\n'}
+[5.569637] (video_stream_client) StdoutLine: {'line': b'Installing image_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client\n'}
+[5.572130] (video_stream_client) StdoutLine: {'line': b'Installing video_stream_client script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client\n'}
+[5.574727] (video_stream_client) StdoutLine: {'line': b'Installing video_to_topic script to /home/chen/Desktop/dev_ws/install/video_stream_client/lib/video_stream_client\n'}
+[5.581184] (video_stream_client) StdoutLine: {'line': b"writing list of installed files to '/home/chen/Desktop/dev_ws/build/video_stream_client/install.log'\n"}
+[5.588573] (-) TimerEvent: {}
+[5.690814] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[5.694872] (-) TimerEvent: {}
+[5.740613] (video_stream_client) CommandEnded: {'returncode': 0}
+[5.757077] (video_stream_client) JobEnded: {'identifier': 'video_stream_client', 'rc': 0}
+[5.773259] (-) EventReactorShutdown: {}
